@@ -1,0 +1,88 @@
+html, body{
+    font-family: 'Quicksand', sans-serif;
+    height:100%;
+}
+div{
+    padding:0;
+    margin:0;
+}
+.resume-wrap{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+.resume-box{
+    height: 95%;
+    margin: 15px 0;
+    background-color: #fff;
+    box-shadow: 1px 3px 6px 0 rgba(0,0,0,0.4);
+}
+@media screen and (max-width: 720px){
+    .resume-box{
+        width: 90%;
+    }
+}
+@media screen and (min-width: 720px){
+    .resume-box{
+        width: 70%;
+    }
+}
+@media screen and (min-width: 1025px){
+    .resume-box{
+        width: 50%;
+    }
+}
+.resume-box > div{
+    padding: 22px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+.resume-box > div p{
+    font-size: 14px;
+}
+/* Name & Contact */
+.personal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+    flex:1;
+}
+.photo img{
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+@media screen and (max-width: 720px){
+    .photo img{
+        width: 90%;
+    }
+}
+.name{
+    flex:0.7;
+    padding:5px;
+}
+.name .real-name{
+    font-size: 30px;
+}
+.name .prof{
+    font-size: 15px;
+    color: rgba(0,0,0,0.3);
+}
+.contact{
+    flex:1;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+.edu{
+}
+.tech{
+}
+.project{
+}
+.cv{
+}
+
