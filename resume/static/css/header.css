@@ -16,6 +16,8 @@
 #menus a{
     margin: 0 10px;
     color: #3c2f2f;
+    cursor: pointer;
+
     -webkit-tranform: scale(1);
     transform: scale(1);
     -webkit-transition: 0.2s ease;
@@ -25,9 +27,10 @@
 #navi a:hover{
     font-weight: 700;
     text-decoration: none;
+    cursor: pointer;
 
-    -webkit-tranform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-tranform: scale(1.1);
+    transform: scale(1.1);
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease;
 }

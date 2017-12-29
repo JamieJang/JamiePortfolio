@@ -6,6 +6,7 @@ from . import views
 app_name = "resume"
 
 urlpatterns = [
-    re_path(r'^$',views.Index.as_view(), name="index"),
-    re_path(r'^resume/$', TemplateView.as_view(template_name="resume/resume.html"), name="resume"),
+    path('',TemplateView.as_view(template_name="resume/index.html"), name="index"),
+    path('resume/', TemplateView.as_view(template_name="resume/resume.html"), name="resume"),
+    path('projects/',TemplateView.as_view(template_name="resume/project.html"), name="project"),
 ]
