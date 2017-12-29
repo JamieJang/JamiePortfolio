@@ -4,3 +4,9 @@ db.sqlite3
 *.swp
 .vscode
 /media
+portfolio-env
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
