@@ -1,0 +1,33 @@
+#navi{
+    height: 70px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.4);
+}
+#menus{
+    width: 300px;
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#menus a{
+    margin: 0 10px;
+    color: #3c2f2f;
+    -webkit-tranform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+}
+
+#navi a:hover{
+    font-weight: 700;
+    text-decoration: none;
+
+    -webkit-tranform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+}

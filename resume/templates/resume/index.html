@@ -1,0 +1,29 @@
+{% extends 'resume/base.html' %}
+{% load staticfiles %}
+
+{% block title %}장지용{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/index.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/header.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/content.css' %}" />
+{% endblock %}
+{% block content %}
+
+<div id="wrap">
+    {% include 'resume/header.html' %}
+    <div id="content">
+        <div id="about">
+            <h1 class='name'>장지용<span class='sub-name'>Django 개발자</span></h1>
+            <p class='info-detail'>어제보다 더 나은 오늘을 모토로 개발을 하고있습니다</p> 
+            <a href="#" target="_blank" class="resume-link">
+                <span class='fas fa-angle-double-right'></span> 이력서
+            </a>
+        </div>
+        <div id="project-list">
+            <h1>Project</h1>
+        </div>
+    </div>    
+</div>
+
+{% endblock %}
