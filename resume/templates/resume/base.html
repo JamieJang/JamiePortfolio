@@ -10,10 +10,12 @@
     <link href="{% static 'css/font.css' %}" />
     <link rel="stylesheet" href="{% static 'css/base.css' %}" />
     <link rel="stylesheet" href="{% static 'dist/css/bootstrap.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/header.css' %}" />
     {% block style %}{% endblock %}
 </head>
 
 <body>
+    {% include 'resume/header.html' %}
     {% block content %}{% endblock %}
 
     <script src="{% static 'dist/jquery-3.2.1.min.js' %}"></script>

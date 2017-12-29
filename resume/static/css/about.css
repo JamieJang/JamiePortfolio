@@ -1,32 +1,35 @@
 #content{
-    height:85%;
+    height:70%;
     width: 98%;
     margin: auto;
     display: flex;
-    flex-direction: column;
+    
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     
 }
 
 #about{
-    margin-top: -5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     line-height: 40px;
     word-break: keep-all;
+    padding: 5%;
+
+    box-shadow: 0 2px 5px 0 #709874;
 }
 @media screen and (max-width:767px){
     #about{
         width: 95%;
-        padding: 2%;
+        padding: 5%;
     }
 }
 
 .name{
     font-size: 38px;
     color: rgba(0,0,0,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.3);
 }
 .sub-name{
     font-size: 18px;
