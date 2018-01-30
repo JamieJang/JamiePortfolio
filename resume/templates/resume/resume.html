@@ -20,33 +20,39 @@
                 <div class="photo">
                     <img src="{% static 'img/profile.png' %}" align="middle" />
                 </div>
-                <div class="name">
-                    <div class="real-name">
-                        장지용
+                <div class="info">
+                    <div class="position">
+                        <div class="position-name">
+                            백엔드(Django) 개발자
+                        </div>
                     </div>
-                    <div class="prof">
-                        Django 개발자
-                    </div>
-                </div>
-                <div class="contact">
-                    <div class="con">
-                        <span class="fas fa-phone"></span>
-                        &nbsp;&nbsp;010 9205 9417
-                    </div>
-                    <div class="con">
-                        <span class="fab fa-google-plus-g"></span>&nbsp;
-                        <a href="https://plus.google.com/116590924524324713794" target="_blank">
-                            wldyd9186@gmail.com</a>
-                    </div>
-                    <div class="con">
-                        <span class="fab fa-github"></span>&nbsp;&nbsp;
-                        <a href="https://github.com/JamieJang/" target="_blank">
-                            github.com/JamieJang</a>
-                    </div>
-                    <div class="con">
-                        <span class="fas fa-home"></span>&nbsp;&nbsp;
-                        <a href="http://www.jamiejang.me/" target="_blank">
-                            jamiejang.me</a>
+                    <div class="personal-info">
+                        <div class="name">
+                            <div class="real-name">
+                                장지용
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <div class="con">
+                                <span class="fas fa-phone"></span>
+                                &nbsp;&nbsp;010 9205 9417
+                            </div>
+                            <div class="con">
+                                <span class="fab fa-google-plus-g"></span>&nbsp;
+                                <a href="https://plus.google.com/116590924524324713794" target="_blank">
+                                    wldyd9186@gmail.com</a>
+                            </div>
+                            <div class="con">
+                                <span class="fab fa-github"></span>&nbsp;&nbsp;
+                                <a href="https://github.com/JamieJang/" target="_blank">
+                                    github.com/JamieJang</a>
+                            </div>
+                            <div class="con">
+                                <span class="fas fa-home"></span>&nbsp;&nbsp;
+                                <a href="http://www.jamiejang.me/" target="_blank">
+                                    jamiejang.me</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -67,20 +73,57 @@
                 <p>Docker</p>
             </div>
             <div class="project">
-                <h2>개인 프로젝트 
-                    <a href="#" target="_blank" style="font-size:14px">(프로젝트 리스트)</a>
+                <h2>개인 프로젝트 </h2>
+                    <div class="each-project">
+                        <h4 class="project-title">인스타그램 클론 프로젝트</h4>
+                        <p class="project-term">2017.12.20 - 2018.1.7</p>
+                        <div class="project-info">
+                            <div class="info-title">
+                                 사용된 기술:
+                            </div>
+                            <div class="info-detail">
+                                 Django(백엔드), React,Redux(프론트엔드)
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="info-title">
+                             목표:
+                            </div>
+                            <div class="info-detail">
+                                 실제 서비스 되는 사이트를 클론 코딩 함으로써 가지고 있는 기술들을
+                                실무에서 어떻게 사용해야 할 지 알아가는 것
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="info-title">
+                                결과:
+                            </div>
+                            <div class="info-detail">
+                                Django를 사용해서 REST API 서버를 구성하는 방법과, React/Redux를 사용하여 SPA(Single Page Application)를
+                                만드는 방법을 익힘
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img src="{% static 'img/jamiegram1.png' %}" alt="jamiegram" />
+                            <img src="{% static 'img/jamiegram2.png' %}" alt="jamiegram" />
+                            <img src="{% static 'img/jamiegram3.png' %}" alt="jamiegram" />
+                        </div>
+                        
+                    </div>
                 </h2>
             </div>
             <div class="cv">
                 <h2>자기소개</h2>
-                <p style="line-height: 2">저는 프로그래밍을 전공하지 않았고 개발기간도 길다고 볼 수 없습니다. 
-                    러시아 유학기간 중, 외국인 친구를 통해서 우연하게 접하게 된 프로그래밍에 흥미를 가지기 시작했습니다. 
-                    남들보다 늦은 시작이었지만, 그 누구보다 큰 열정을 가지고 개발자의 길로 뛰어들었습니다. 
-                    대부분의 기술들을 독학으로 배웠고, 그로 인해서 새로운 기술에 대한 알맞는 정보를 찾는 방법과 빠른 습득능력을 키우게 되었습니다. 
-                    빠르고 편리한 웹 서비스를 만드는 것을 지향하고 있어서, 많은 웹 사이트들을 돌아다니며 새로운 기술을 찾아보는 것을 좋아합니다. 
-                    그리고 그 기술이 어떤 방식으로 이루어졌는지 이해하고 실습해보는것도 좋아합니다. 
-                    이러한 부분들을 실무에서 새로운 기술을 사용해야 할 때 큰 도움이 될 것 입니다. 
-                    저는 남들보다 늦게 개발자의 길로 들어섰지만, 곧 그들 만큼, 혹은 더 큰 능력을 보여 줄거라 생각합니다.</p>
+                <p style="line-height: 2"> 백엔드 개발자, 나아가 풀스택 개발자가 되려는 신입 프로그래머입니다.
+                    프로그래밍에 흥미를 느끼게 된 이유는 컴퓨터 하나만으로도 이 세상 많은 사람에게 제 생각을 보여 줄 수 있다는 것이었습니다.
+                    대다수의 사람처럼 전공으로 배운 것은 아니지만, 그 누구보다 큰 열정을 가지고 개발자의 길로 뛰어들었습니다.
+                    대부분의 기술을 독학으로 배웠고, 그로 인해서 새로운 기술에 대한 알맞은 정보를 찾는 방법과 빠른 습득능력을 키우게 되었습니다. 
+                    빠르고 편리한 웹 서비스를 만드는 것을 지향하고 있어서, 데이터 처리방법에 대해 많은 관심이 있고, 
+                    많은 웹 사이트들을 돌아다니며 새로운 기술을 찾아보는 것을 좋아합니다. 그리고 그 기술이 어떤 방식으로 이루어졌는지 이해하고 직접 실습해 보면서 이해합니다.
+                    프로그래밍에 대한 다양한 지식을 가지는 것도 중요하지만, 기초적인 프로그래밍 지식과 함께 수많은 정보 가운데에서 알맞은 기술을 생각하고 찾아내서 
+                    빠르게 서비스에 적용하는 점이 현재 개발자에게 있어 더 중요한 점이라고 생각합니다. 저는 혼자서 기술들을 배우면서 그러한 점을 많이 단련시켰습니다. 
+                    어떻게 검색하고 어떻게 적용하는지 잘 알고 있습니다. 이러한 점을 저의 장점으로 내세워 실무에서 개발자의 역할을 해 낼 수 있다고 자신합니다.
+                    </p>
             </div>
         </div>
     </div>

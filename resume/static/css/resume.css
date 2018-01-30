@@ -6,6 +6,10 @@ div{
     padding:0;
     margin:0;
 }
+h2{
+    color: #4b3832;
+    font-weight: 800;
+}
 .resume-wrap{
     display: flex;
     width:100%;
@@ -60,8 +64,31 @@ div{
         width: 90%;
     }
 }
+.info{
+    flex: 1.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info .position{
+    flex: 0.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}
+.position-title{
+    margin-right: 10px;
+}
+.info .personal-info{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .name{
-    flex:0.7;
+    flex: 0.7;
     padding:5px;
 }
 .name .real-name{
@@ -82,7 +109,35 @@ div{
 .tech{
 }
 .project{
+    
 }
+.each-project{
+    display:flex;
+    flex-direction: column;
+}
+.each-project img{
+    width: 220px; 
+    height: 250px;
+    margin-right: 5px;
+}
+.project-info{
+    display: flex;
+    margin-bottom: 5px;
+}
+.project-image{
+    display: flex;
+    margin-top: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.info-title{
+    flex: 1;
+}
+.info-detail{
+    flex: 4;
+}
+
 .cv{
 }
 
